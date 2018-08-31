@@ -25,7 +25,7 @@ var messageIcon = L.icon({
 
 const API_URL = window.location.hostname === 'localhost' ?
  'http://localhost:5000/api/v1/messages' :
-'production-url-here';
+'https://chen-berlin-reccomendations.herokuapp.com/api/v1/messages';
 
 class App extends Component {
   state = {
