@@ -6,7 +6,7 @@ import './App.css';
 import othersLocation from './othersLocation.svg';
 import userLocation from './userLocation.svg';
 
-//theres a problem with the seconnd map, I will write another comment there
+
 
 var userIcon = L.icon({
   iconUrl: userLocation,
