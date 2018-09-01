@@ -39,9 +39,7 @@ router.post('/', (req, res, next) => {
     console.log(error);
     next(result.error)
     console.log(error);
-    
   }
-
 });
 
 
