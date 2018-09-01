@@ -9,14 +9,14 @@ import MessageCard from './MessageCard';
 
 
 var userIcon = L.icon({
-  iconUrl: userLocation,
+  iconUrl: 'http://icon-park.com/imagefiles/location_map_pin_light_blue5.png',
   iconSize: [50, 82],
   iconAnchor: [25, 82],
   popupAnchor: [25, -82],
 });
 
 var messageIcon = L.icon({
-  iconUrl: othersLocation,
+  iconUrl: 'http://icon-park.com/imagefiles/location_map_pin_light_blue5.png',
   iconSize: [50, 82],
   iconAnchor: [25, 82],
   popupAnchor: [-25, -100],
